@@ -1,5 +1,4 @@
 
-
 function dwarfRollCall(dwarves) {let listDwarves = []
   for(let i = 0; i < dwarves.length; i++){
     
