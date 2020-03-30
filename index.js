@@ -1,7 +1,7 @@
 var dwarves = ['Dopey', 'Grumpy', 'Bashful'];
 
 function dwarfRollCall(number, dwarves) {for (let i=0; i<3; i++)
-alert (`${i + 1}. ${dwarves[i]}`);
+return dwarves.push(`${i + 1}. ${dwarves[i]}`);
 }
 
 function summonCaptainPlanet(planeteerCalls){
