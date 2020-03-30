@@ -1,12 +1,6 @@
-var dwarves = ['Dopey', 'Bashful', 'Grumpy',];
 
-function dwarfRollCall(dwarves) {let listDwarves = [];
-  for(let i = 0; i < dwarves.length; i++);{
-    
-    listDwarves.push(`${i+1}. ${dwarves[i]} `);
-    
-  }
-  return listDwarves.join("");
+
+function dwarfRollCall(dwarves) {
 }
 
 var planeteerCalls = ['earth', 'wind', 'fire', 'water', 'heart'];
