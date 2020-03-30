@@ -9,13 +9,7 @@ function dwarfRollCall(dwarves) {let listDwarves = []
   return listDwarves.join("");
 }
 
-var planeteerCalls = ['earth', 'wind', 'fire', 'water', 'heart'];
-function summonCaptainPlanet(planeteerCalls){ let uppercasePlaneteerCalls = [];
-  for(let i = 0; i < planeteerCalls.length; i++);{
-    let punctuation = "!";
-    uppercasePlaneteerCalls.push(`${planeteerCalls[i]}${punctuation}`.toUpperCase());
-  }
-  return uppercasePlaneteerCalls;
+function summonCaptainPlanet(planeteerCalls){ 
 }
 
 function longPlaneteerCalls(words) {
