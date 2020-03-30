@@ -12,7 +12,7 @@ function summonCaptainPlanet(planeteerCalls){ let uppercasePlaneteerCalls = [];
     let punctuation = "!";
     uppercasePlaneteerCalls.push(`${planeteerCalls[i]}${punctuation}`.toUpperCase());
   }
-  return uppercasePlaneteerCalls
+  return uppercasePlaneteerCalls;
 }
 
 function longPlaneteerCalls(words) {
