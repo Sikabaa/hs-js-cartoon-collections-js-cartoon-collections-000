@@ -7,7 +7,12 @@ function dwarfRollCall(dwarves) {let listDwarves = [];
   return listDwarves.join("");
 }
 
-function summonCaptainPlanet(planeteerCalls){
+function summonCaptainPlanet(planeteerCalls){ let uppercasePlaneteerCalls = [];
+  for(let i = 0; i < planeteerCalls.length; i++){
+    let punctuation = "!"
+    uppercasePlaneteerCalls.push(`${planeteerCalls[i]}${punctuation}`.toUpperCase())
+  }
+  return uppercasePlaneteerCalls
 }
 
 function longPlaneteerCalls(words) {
