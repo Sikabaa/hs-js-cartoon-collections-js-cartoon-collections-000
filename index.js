@@ -1,4 +1,5 @@
-let dwarves = ['']
+let dwarves = ['Dopey', 'Grumpy', 'Bashful'];
+
 function dwarfRollCall(number, dwarves) {for (let i=0; i<dwarves.length; i++) 
 alert (`${i + 1}. ${dwarves[i]}`);
 }
