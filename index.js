@@ -8,8 +8,8 @@ function dwarfRollCall(dwarves) {let listDwarves = [];
 }
 
 function summonCaptainPlanet(planeteerCalls){ let uppercasePlaneteerCalls = [];
-  for(let i = 0; i < planeteerCalls.length; i++){
-    let punctuation = "!"
+  for(let i = 0; i < planeteerCalls.length; i++);{
+    let punctuation = "!";
     uppercasePlaneteerCalls.push(`${planeteerCalls[i]}${punctuation}`.toUpperCase())
   }
   return uppercasePlaneteerCalls
