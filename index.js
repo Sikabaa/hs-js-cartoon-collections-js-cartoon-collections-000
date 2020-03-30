@@ -1,4 +1,4 @@
-function dwarfRollCall(dwarves) {let dwarves = [return dwarves.shift
+function dwarfRollCall(dwarves) {for return dwarves.shift
 }
 
 function summonCaptainPlanet(planeteerCalls){
